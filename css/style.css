@@ -1,0 +1,223 @@
+body{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0 ,0.7) , rgba(0, 0, 0, 0.7)) , url(../images/hero.jpg) ; 
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+    align-items: center;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav {
+
+    list-style: none;
+    display: flex;
+    
+
+}
+
+.main-nav li {
+
+    margin-left: 30px;
+}
+.main-nav li a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 30px;
+
+}
+.main-nav li a:hover {
+
+    color: orange;
+}
+.hero-box {
+
+    position: absolute;
+    top: 40%;
+}
+h1 {
+
+    margin-left: 30px;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn {
+
+    border: solid 1px orange;
+    margin-left: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    
+}
+.btn:hover {
+
+    background-color: transparent;
+}
+
+section {
+
+    padding: 40px 0px;
+}
+
+h2 {
+
+    text-align: center;
+    font-weight: 25;
+    text-transform: uppercase;
+}
+hr {
+
+    width: 100px;
+    border: solid 3px orange;
+    background-color: orange;
+    border-radius: 3px;
+}
+.features-info {
+    width: 60%;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+.box i {
+
+    color: orange;
+    font-size: xx-large;
+}
+.box {
+
+    text-align: center;
+}
+
+
+.one{
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+} 
+.one img {
+    opacity: .6;
+    transition: 1s;
+    transform: scale(1.2);
+}
+.one img:hover {
+    opacity: 1;
+    transform: scale(1);
+}   
+
+.section-mid {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+.iphone {
+
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.how {
+
+    list-style: decimal;
+}
+
+.koky {
+
+    padding: 10px;
+    width: 50%;
+}
+.copy {
+
+    width: 23%;
+    margin-left: 10px;
+}
+
+input[type=text],
+input[type=email]
+{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: #333 1px solid;
+    border-radius: 3px;
+}
+
+input[type=checkbox]{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+button {
+
+    border: solid orangered 1px;
+    background-color: orange;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: white;
+    color: orangered;
+}
+footer {
+
+    padding: 30px 0px;
+    background-color: #333;
+}
+.footer-nav {
+
+    display: flex;
+    list-style: none;
+
+}
+.social-nav {
+
+    display: flex;
+    list-style: none;
+    float: right;
+}
+
+.social-nav li a {
+
+    color: #ccc;
+    margin-right: 10px;
+}
+.footer-nav li a {
+
+    color: #ccc;
+    margin-right: 20px;
+    text-decoration: none;
+}
+footer p {
+
+    color: #ccc;
+    
+    text-align: center;
+   
+}
